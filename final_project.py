@@ -13,8 +13,8 @@ df["World population (in thousands)"] = df["World population (in thousands)"].st
 df = df[["Year", "World population (in thousands)"]].astype("int")
 # defines the x and y axis 
 df.plot(x = "Year", y = "World population (in thousands)", kind = "bar")
+
 # creates a bar graph 
-df.plot()
 plt.show()
 
 # prints the info being graphed 
